@@ -1,9 +1,10 @@
 require './lib/services/open_ai_service'
 require './lib/utils/string_util'
 class Travel
+
     def dates(start_date, end_date)
-        @start = start_date
-        @end = end_date
+        @start_date = start_date
+        @end_date = end_date
         self
     end
     
